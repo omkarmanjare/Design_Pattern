@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace DesignPatterns
 {
     //TODO : Implement lazy initiliation 
-    class LazyInitiliation
+   public class LazyInitiliation
     {
     }
 }

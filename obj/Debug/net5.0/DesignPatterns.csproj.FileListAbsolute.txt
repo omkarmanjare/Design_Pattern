@@ -1,0 +1,16 @@
+D:\Omkar Self Repos\DesignPatterns\bin\Debug\net5.0\DesignPatterns.exe
+D:\Omkar Self Repos\DesignPatterns\bin\Debug\net5.0\DesignPatterns.deps.json
+D:\Omkar Self Repos\DesignPatterns\bin\Debug\net5.0\DesignPatterns.runtimeconfig.json
+D:\Omkar Self Repos\DesignPatterns\bin\Debug\net5.0\DesignPatterns.runtimeconfig.dev.json
+D:\Omkar Self Repos\DesignPatterns\bin\Debug\net5.0\DesignPatterns.dll
+D:\Omkar Self Repos\DesignPatterns\bin\Debug\net5.0\ref\DesignPatterns.dll
+D:\Omkar Self Repos\DesignPatterns\bin\Debug\net5.0\DesignPatterns.pdb
+D:\Omkar Self Repos\DesignPatterns\obj\Debug\net5.0\DesignPatterns.csproj.AssemblyReference.cache
+D:\Omkar Self Repos\DesignPatterns\obj\Debug\net5.0\DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+D:\Omkar Self Repos\DesignPatterns\obj\Debug\net5.0\DesignPatterns.AssemblyInfoInputs.cache
+D:\Omkar Self Repos\DesignPatterns\obj\Debug\net5.0\DesignPatterns.AssemblyInfo.cs
+D:\Omkar Self Repos\DesignPatterns\obj\Debug\net5.0\DesignPatterns.csproj.CoreCompileInputs.cache
+D:\Omkar Self Repos\DesignPatterns\obj\Debug\net5.0\DesignPatterns.dll
+D:\Omkar Self Repos\DesignPatterns\obj\Debug\net5.0\ref\DesignPatterns.dll
+D:\Omkar Self Repos\DesignPatterns\obj\Debug\net5.0\DesignPatterns.pdb
+D:\Omkar Self Repos\DesignPatterns\obj\Debug\net5.0\DesignPatterns.genruntimeconfig.cache

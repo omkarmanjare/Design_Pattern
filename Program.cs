@@ -50,7 +50,16 @@ namespace DesignPatterns
             //
             #endregion
 
+            #region facade Pattern
 
+            //Here simply you ,call the only function exposed of class to place an order and provide ur basic details
+            //user does not have to worry about how it will do internally and also the internal details are hidden here
+            OrderPlacingSystem orderPlacingSystem = new OrderPlacingSystem("Shivam", 1121231, "Sector 13,Chandigadh", 1110201, 101.76,
+                10, "FIRSTORDER");
+            var orderPlacedResponse = orderPlacingSystem.ProcessOrder();
+            Console.WriteLine("Order Placed ! OrderId : {0} , Delivery Date : {1}", orderPlacedResponse.OrderId, orderPlacedResponse.DeliveryTime);
+
+            #endregion
 
             Console.ReadLine();
        

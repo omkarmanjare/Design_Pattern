@@ -61,6 +61,11 @@ namespace DesignPatterns
 
             #endregion
 
+            #region factory pattern
+
+            var factory = new ClundServiceProvider();
+            factory.CreateUserAccountForSelectedServiceProvider("GCP");
+            #endregion
             Console.ReadLine();
        
         }

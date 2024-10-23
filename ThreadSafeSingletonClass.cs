@@ -22,21 +22,22 @@ namespace DesignPatterns
             {
                 get
                 {
-                // here apply the lock on this module of object creation so     
-                //two threads wont come at a time and 
+                    // here apply the lock on this module of object creation so     
+                    //two threads wont come at a time. This is called as double-checked locking technique
 
-                lock (lock1)  
+                    if (instance == null)
+                    // First check to avoid unnecessary locking after instance is created
                     {
-                        if (instance == null)
+                        lock (lock1)  
                         {
-                            instance = new ThreadSafeSingletonClass();
-
-                            //instance.
+                            instance = new ThreadSafeSingletonClass();//instance 
                         }
-                        return instance;
                     }
+                    return instance;
                 }
             }
             public int Counter { get { return counter; } }
     }
+
+    //Thread safty single ton class can also be implemented using Lazy<T> in C#
 }

@@ -8,11 +8,9 @@ namespace DesignPatterns
 {
     /// <summary>
     /// A complex system involves multiple subsystems that interact with each other ,
-    /// touches multiple datanbases at its own and manages to fulfiull the end to end flow.
+    /// touches multiple databases at its own and manages to fulfiull the end to end flow.
     /// In order to not let the client/ consumer of this complex systme get idea of entire subsystems,how components or modules 
-    /// communicate and how they work, 
-    /// we provide a limited interface/single point of communication to the client and hide all those internal details
-    /// within. This is facade  
+    /// communicate and how they work, we provide a limited interface/single point of communication to the client and hide all those internal details within. This is facade pattern  
     /// </summary>
     public class User
     {
@@ -127,12 +125,6 @@ namespace DesignPatterns
                 return new OrderPlacedResponse() { OrderId = order.OrderID, DeliveryTime = possibleDeliveryDate };
             }
             else return new OrderPlacedResponse();
-
         }
-
-
-
     }
-
-
 }

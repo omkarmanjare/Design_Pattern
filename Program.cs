@@ -10,12 +10,12 @@ namespace DesignPatterns
 
             #region singleton class
             // Will try to get two instance s1 and s2.            
-            SingletonClasses s1 = SingletonClasses.getInstance;
+            SingletonClasses s1 = SingletonClasses.Instance;
             // But due to if condition in theSingletonClasses class,only one instance is created and while
             // second instance is tries to create, we get refrence of first instace only
             // and that reference will be be assigned to s2
             //counter value is expected to get increased only once as objet is created once
-            SingletonClasses s2 = SingletonClasses.getInstance;
+            SingletonClasses s2 = SingletonClasses.Instance;
             if (s1.GetHashCode().Equals(s2.GetHashCode()))
                 Console.WriteLine("S1 and S2 are same");
 
@@ -31,8 +31,8 @@ namespace DesignPatterns
 
             //Here we create two threads and call the respective methods
 
-            Thread thread1 = new Thread(() => { x = SingletonClasses.getInstance; });
-            Thread thread2 = new Thread(() => { y = SingletonClasses.getInstance; });
+            Thread thread1 = new Thread(() => { x = SingletonClasses.Instance; });
+            Thread thread2 = new Thread(() => { y = SingletonClasses.Instance; });
             thread1.Start();
             thread2.Start();
 
@@ -71,3 +71,6 @@ namespace DesignPatterns
         }
     }
 }
+
+
+//https://dev.to/kalkwst/series/19540
